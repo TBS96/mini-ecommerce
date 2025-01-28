@@ -53,6 +53,9 @@ h1, h2 {
 }
 
 .cart ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 10px;
 }
 
@@ -69,6 +72,14 @@ button {
 
 button:hover {
     background-color: rgb(1, 84, 1);
+}
+
+.remove-item {
+    background-color: rgb(218, 12, 12);
+}
+
+.remove-item:hover {
+    background-color: rgb(151, 5, 5);
 }
 
 #buy-now {
