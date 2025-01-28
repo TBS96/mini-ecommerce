@@ -44,7 +44,7 @@ const updateCartDisplay = () => {
     cart.forEach((item, index) => {
         const li = document.createElement('li');
         li.innerHTML = `
-            ${item.name} - $${item.price} x ${item.quantity}
+            <p>${item.name} - $${item.price} x ${item.quantity}</p>
             <button class="remove-item" data-index="${index}">Remove</button>
         `;
         cartItems.appendChild(li);
